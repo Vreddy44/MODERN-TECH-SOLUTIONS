@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ModernTech Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ModernTech Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="page-header bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center py-5">
+                    <h1 class="fw-bold">Our Project Gallery</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Explore Our Work</h2>
+                <p class="section-subtitle">A showcase of our best projects and achievements</p>
+            </div>
+            <div class="text-center mb-4">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-primary active filter-btn" data-filter="all">All</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-filter="web">Web Design</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-filter="app">Mobile Apps</button>
+                    <button type="button" class="btn btn-outline-primary filter-btn" data-filter="branding">Branding</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 gallery-item web">
+                    <div class="card gallery-card">
+                        <img src="e-commerece.jpeg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Platform</h5>
+                            <p class="card-text">A responsive e-commerce solution for a fashion retailer.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal1">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 gallery-item app">
+                    <div class="card gallery-card">
+                        <img src="fitnessapp.jpeg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Tracker App</h5>
+                            <p class="card-text">Mobile application for tracking workouts and nutrition.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal2">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 gallery-item web">
+                    <div class="card gallery-card">
+                        <img src="corporatewebsite.jpeg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Corporate Website</h5>
+                            <p class="card-text">Modern website redesign for a financial services firm.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal3">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 gallery-item branding">
+                    <div class="card gallery-card">
+                        <img src="images.jpeg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Brand Identity</h5>
+                            <p class="card-text">Complete brand refresh for a technology startup.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal4">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 gallery-item app">
+                    <div class="card gallery-card">
+                        <img src="fooddelivery.jpeg" class="card-img-top" alt="Project 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Food Delivery App</h5>
+                            <p class="card-text">Mobile app connecting local restaurants with customers.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal5">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 gallery-item branding">
+                    <div class="card gallery-card">
+                        <img src="digimarketing.jpeg" class="card-img-top" alt="Project 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing Campaign</h5>
+                            <p class="card-text">Integrated digital marketing campaign for product launch.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal6">
+                                View Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="galleryModal1" tabindex="-1" aria-labelledby="galleryModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModal1Label">E-commerce Platform</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/800x500" class="img-fluid" alt="E-commerce Platform">
+                    <div class="mt-4">
+                        <h5>Project Overview</h5>
+                        <p>This responsive e-commerce platform was designed for a fashion retailer looking to expand their online presence. The solution includes a user-friendly interface, secure payment processing, and inventory management system.</p>
+                        <h5>Technologies Used</h5>
+                        <p>HTML5, CSS3, JavaScript, React.js, Node.js, MongoDB</p>
+                        <h5>Client Feedback</h5>
+                        <blockquote class="blockquote">
+                            <p>"The e-commerce platform developed by ModernTech Solutions has transformed our business. Our online sales have increased by 150% since launch."</p>
+                            <footer class="blockquote-footer">Sarah Thompson, CEO of Fashion Forward</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="galleryModal2" tabindex="-1" aria-labelledby="galleryModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModal2Label">Fitness Tracker App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/800x500" class="img-fluid" alt="Fitness Tracker App">
+                    <div class="mt-4">
+                        <h5>Project Overview</h5>
+                        <p>A comprehensive fitness tracking mobile application that helps users monitor workouts, nutrition, and progress toward fitness goals. The app includes features like personalized workout plans, nutrition tracking, and social sharing.</p>
+                        <h5>Technologies Used</h5>
+                        <p>React Native, Firebase, Redux, Google Fit API, Apple HealthKit</p>
+                        <h5>Client Feedback</h5>
+                        <blockquote class="blockquote">
+                            <p>"Working with ModernTech was a pleasure. They delivered a high-quality app that our users love, and the ongoing support has been exceptional."</p>
+                            <footer class="blockquote-footer">Michael Jordan, Founder of FitLife</footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>ModernTech Solutions</h3>
+                    <p>Innovative solutions for tomorrow's challenges</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, CA</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@moderntechsolutions.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p>&copy; 2025 ModernTech Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    const filterValue = this.getAttribute('data-filter');
+                    const galleryItems = document.querySelectorAll('.gallery-item');
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
